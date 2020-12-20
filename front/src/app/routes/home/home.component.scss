@@ -10,8 +10,8 @@ main {
   flex-grow: 1;
   display: flex;
   flex-flow: column;
+  padding: 0.5em 2em;
   form {
-    padding: 0 2em;
     flex-grow: 1;
     display: grid;
     grid-template-columns: 1fr 10em 1fr;
