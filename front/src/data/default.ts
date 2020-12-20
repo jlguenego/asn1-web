@@ -1,7 +1,7 @@
 export const derDefault = `30 # Sequence
   13 # Seq Length
-    02 # Integer 
-      01 # Integer Length 
+    02 # Integer
+      01 # Integer Length
         05 # 5
     16 # IA5String (ASCII string)
       0e # String length (14)

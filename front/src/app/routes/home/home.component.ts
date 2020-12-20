@@ -10,9 +10,15 @@ import { derDefault } from 'src/data/default';
 export class HomeComponent implements OnInit {
   f = new FormGroup({
     der: new FormControl(derDefault),
+    json: new FormControl(''),
   });
 
   constructor() {}
 
   ngOnInit(): void {}
+
+  parse(): void {
+    console.log('parse');
+    this.f.controls.json.setValue('result');
+  }
 }

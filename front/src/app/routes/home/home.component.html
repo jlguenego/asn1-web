@@ -7,14 +7,14 @@
     </label>
     <label class="json">
       <div>message content in parsed JSON</div>
-      <textarea name="json"></textarea>
+      <textarea name="json" formControlName="json"></textarea>
     </label>
     <label class="asn1">
       <div>ASN1 module content</div>
       <textarea name="asn1"></textarea>
     </label>
     <nav class="nav">
-      <button type="button">Parse &gt;</button>
+      <button type="button" (click)="parse()">Parse &gt;</button>
       <button type="button">&lt; Generate</button>
       <button
         type="button"
