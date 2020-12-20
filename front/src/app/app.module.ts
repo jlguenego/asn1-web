@@ -6,19 +6,12 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { HomeComponent } from './routes/home/home.component';
 import { LegalComponent } from './routes/legal/legal.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    LegalComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    LayoutModule
-  ],
+  declarations: [AppComponent, HomeComponent, LegalComponent],
+  imports: [BrowserModule, AppRoutingModule, LayoutModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

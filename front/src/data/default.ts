@@ -1,0 +1,9 @@
+export const derDefault = `30 # Sequence
+  13 # Seq Length
+    02 # Integer 
+      01 # Integer Length 
+        05 # 5
+    16 # IA5String (ASCII string)
+      0e # String length (14)
+        41 6e 79 62 6f 64 79 20 74 68 65 72 65 3f # String content ("Anybody there?")
+`;

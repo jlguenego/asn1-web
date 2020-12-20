@@ -1,9 +1,9 @@
 <main>
   <h1>Online ASN1 DER message parser</h1>
-  <form>
+  <form [formGroup]="f">
     <label class="der">
       <div>message content in DER raw code</div>
-      <textarea name="der"></textarea>
+      <textarea name="der" formControlName="der"></textarea>
     </label>
     <label class="json">
       <div>message content in parsed JSON</div>
