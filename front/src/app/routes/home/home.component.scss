@@ -1,0 +1,59 @@
+:host {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  max-width: inherit;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  form {
+    padding: 0 2em;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 10em 1fr;
+    grid-template-rows: 20em 20em;
+    grid-template-areas:
+      "der nav json"
+      "asn1 asn1 asn1";
+    gap: 1em;
+
+    .der {
+      grid-area: der;
+    }
+
+    .nav {
+      grid-area: nav;
+    }
+
+    .json {
+      grid-area: json;
+    }
+
+    .asn1 {
+      grid-area: asn1;
+    }
+  }
+}
+
+label {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+textarea {
+  flex-grow: 1;
+  width: 100%;
+  resize: none;
+  border: 0.1em solid #ccc;
+}
+
+nav {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
