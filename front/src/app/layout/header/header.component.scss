@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 0.5em;
   background: #eee;
   height: 3em;
@@ -20,5 +21,9 @@ header {
       font-size: 1.4;
       margin-left: 0.5em;
     }
+  }
+
+  fa-icon {
+    font-size: 2em;
   }
 }
