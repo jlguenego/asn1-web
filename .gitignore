@@ -47,3 +47,6 @@ Thumbs.db
 
 # JLG
 debug.log
+
+# Local Netlify folder
+.netlify
