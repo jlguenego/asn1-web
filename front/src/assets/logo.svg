@@ -1,15 +1,16 @@
-<svg width="420" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="700" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="422" y="-1" x="-1"/>
+  <rect fill="none" id="canvas_background" height="702" width="702" y="-1" x="-1"/>
   <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
   </g>
  </g>
  <g>
   <title>Layer 1</title>
-  <path id="svg_7" d="m15.3625,201.54495l86.25002,-172.5l230.00004,0l86.25,172.5l-86.25,172.5l-230.00004,0l-86.25002,-172.5z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffff00"/>
-  <text stroke="#000" transform="matrix(2.080993175506592,0,0,2.080993175506592,-320.0753230601549,-310.5152896642685) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="52" id="svg_6" y="260.66648" x="180.20937" stroke-opacity="null" stroke-width="0" fill="#000000">ASN.1</text>
+  <path stroke="#000" id="svg_1" d="m48.18822,347.46134l133.53579,-267.07142l356.09541,0l133.53575,267.07142l-133.53575,267.07142l-356.09541,0l-133.53579,-267.07142z" stroke-width="40" fill="none"/>
+  <text font-weight="bold" stroke="#000" transform="matrix(10.268069131332963,0,0,10.268069131332963,-2824.607027870004,-1858.71336096107) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="212.16377" x="293.20994" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">AS</text>
+  <text stroke="#000" transform="matrix(9.131977625630915,0,0,9.131977625630915,-2311.063982830209,-3056.8819675314435) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_6" y="393.51441" x="274.67336" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">N.1</text>
  </g>
 </svg>
