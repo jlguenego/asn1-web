@@ -11,17 +11,22 @@
     </label>
     <label class="asn1">
       <div>ASN1 module content</div>
-      <textarea name="asn1"></textarea>
+      <textarea name="asn1" formControlName="asn1"></textarea>
     </label>
     <nav class="nav">
       <button type="button" (click)="parse()">Parse &gt;</button>
-      <button type="button">&lt; Generate</button>
+      <button type="button" (click)="generate()">&lt; Generate</button>
       <button
         type="button"
         title="Validate the message against the ASN1 module content"
+        (click)="validate()"
       >
         Validate
       </button>
+      <label>
+        <div>Message type</div>
+        <input type="text" formControlName="type" />
+      </label>
     </nav>
   </form>
 </main>
