@@ -15,6 +15,11 @@ Source code of https://asn1.netlify.app/
 
 - do a netlify branch for deploying. Do not use master anymore.
 
+### Communicating
+
+- publish your site on all asn1 related site.
+- talk about @jlguenego/asn.1 to incitate people to use it.
+
 ## Author
 
 Jean-Louis GUENEGO <jlguenego@gmail.com>
