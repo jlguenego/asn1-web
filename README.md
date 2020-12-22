@@ -11,6 +11,10 @@ Source code of https://asn1.netlify.app/
 - Use monaco to replace textarea, and use monarch to get the syntax highlithing on ASN1.
 - Do a menu with some example protocols with preset (Kerberos, etc.)
 
+### Netlify
+
+- do a netlify branch for deploying. Do not use master anymore.
+
 ## Author
 
 Jean-Louis GUENEGO <jlguenego@gmail.com>
