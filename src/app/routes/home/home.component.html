@@ -14,8 +14,12 @@
       <textarea name="asn1" formControlName="asn1"></textarea>
     </label>
     <nav class="nav">
-      <button type="button" (click)="parse()">Parse &gt;</button>
-      <button type="button" (click)="generate()">&lt; Generate</button>
+      <button type="button" (click)="parse()">
+        Parse <fa-icon [icon]="faChevronRight"></fa-icon>
+      </button>
+      <button type="button" (click)="generate()">
+        <fa-icon [icon]="faChevronLeft"></fa-icon> Generate
+      </button>
       <button
         type="button"
         title="Validate the message against the ASN1 module content"

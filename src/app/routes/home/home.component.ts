@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import {
+  faChevronLeft,
+  faChevronRight,
+} from '@fortawesome/free-solid-svg-icons';
 import { ASN1, EncodingRule, DEREncode } from '@jlguenego/asn.1';
 import { asn1Default, asn1TypeDefault, derDefault } from 'src/data/default';
 
@@ -9,6 +13,8 @@ import { asn1Default, asn1TypeDefault, derDefault } from 'src/data/default';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  faChevronRight = faChevronRight;
+  faChevronLeft = faChevronLeft;
   f = new FormGroup({
     der: new FormControl(derDefault),
     json: new FormControl(''),
