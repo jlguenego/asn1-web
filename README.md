@@ -2,6 +2,8 @@
 
 Source code of https://asn1.netlify.app/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/512eee3c-433b-4a92-92b4-9e83e6ac8fb5/deploy-status)](https://app.netlify.com/sites/asn1/deploys)
+
 ## TODO
 
 - button generate template message from ASN1 source code and type.
