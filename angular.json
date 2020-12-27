@@ -20,10 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies": [
-              "@jlguenego/asn.1",
-              "regexp-to-ast"
-            ],
+            "allowedCommonJsDependencies": ["regexp-to-ast"],
             "outputPath": "dist/asn1-web",
             "index": "src/index.html",
             "main": "src/main.ts",
