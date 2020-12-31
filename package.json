@@ -24,6 +24,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@jlguenego/asn.1": "0.0.7",
+    "@jlguenego/lexer": "^1.3.0",
     "buffer": "^6.0.3",
     "normalize.css": "^8.0.1",
     "rxjs": "~6.6.0",
